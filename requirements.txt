@@ -1,0 +1,18 @@
+# Unpinned for now. Once everything works, run `pip freeze` and pin versions.
+pandas
+numpy
+pyarrow
+requests
+python-dotenv
+gridstatus
+cvxpy
+scikit-learn
+lightgbm
+statsmodels
+matplotlib
+plotly
+streamlit
+duckdb
+pytest
+jupyter
+nbstripout

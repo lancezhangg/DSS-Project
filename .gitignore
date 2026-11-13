@@ -1,0 +1,23 @@
+# secrets
+.env
+
+# data (regenerate with fetch scripts; share big files via shared drive)
+data/raw/*
+data/interim/*
+data/processed/*
+data/sample/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/sample/.gitkeep
+!data/sample/*.csv
+*.parquet
+
+# python / notebooks / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
